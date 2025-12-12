@@ -1,16 +1,4 @@
 {
-  "buildCommand": "npm run build:web",
-  "outputDirectory": "dist",
-  "devCommand": "npm run web",
-  "installCommand": "npm install",
-  "framework": "expo",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
-  "env": {
-    "EXPO_PUBLIC_PROJECT": "moviefinder"
-  }
+  "buildCommand": "expo export --platform web",
+  "outputDirectory": "dist"
 }
